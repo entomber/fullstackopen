@@ -1,0 +1,14 @@
+note over browser:
+user types text into text field,
+and clicks the submit button
+end note
+
+note over browser:
+browser calls form's onsubmit handler which:
+1. prevents default action
+2. creates new note and adds to note list
+3. browser rerenders note list
+4. browser sends new note to server
+end note
+
+browser->server: HTTP POST https://fullstack-exampleapp.herokuapp.com/new_note_spa
