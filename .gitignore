@@ -1,3 +1,8 @@
 node_modules/
 
-part2/countries/.env
+.env
+
+part3/phonebook_frontend
+
+**/working
+**/backend
